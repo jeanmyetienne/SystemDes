@@ -1,0 +1,130 @@
+/*This is for the input*/
+input[type=text], input[type=password]{ 
+    width: 100%;
+    padding: 10px;
+    margin:8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    font-family:  Arial;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url('images/hogschool.jpeg');
+    background-color: whitesmoke;
+    position: static;
+    height:  100vh;
+    background-size: cover;
+    background-position: center;
+    font-family: Arial;
+
+}
+
+/*NAVBAR*/
+.menu1  {
+    width:  100%;
+    background: rgba(115,0,0,0.5);
+    color: white;
+    overflow: auto;
+    letter-spacing: 1px;   
+}
+
+.menu1 ul {
+    margin: 0;
+    padding:  0;
+    list-style: none;
+    line-height: 70px;
+}
+
+.menu1 h1 {
+    color:  whitesmoke;
+    text-align: center;
+}
+
+
+.menu1 ul li a:hover {
+    color: white;
+    background:  transparent;
+} 
+
+/*Buttons styles*/
+button{
+
+    color:white;
+    border-radius: 5px;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor:pointer;
+    width: 100%;
+}
+
+label{
+    font-size: 14px;
+
+}
+
+button:hover{
+    opacity: 0.8;
+}
+
+.Login_send{
+    background-color:black;
+    padding: 12px;
+}
+
+/*Center the image and position the close button*/
+.image_container {
+    text-align: center;
+    margin: 24px 0 12px 0;
+    position: relative;
+}
+.Login_image{
+    width: 40%;
+    border-radius: 50%;
+}
+
+
+.container{
+/*    font-family: Arial, Helvetica, sans-serif;*/
+   position: relative; /*stay in place*/
+   left:0px;
+   top:0px;
+   overflow:auto;/*This allows scroll when needed*/
+}
+
+.modal_content .row{   
+    position: relative;
+    top: 50px;
+    background-color: #fefefe;
+    box-shadow: 0 0 20px rgba(115,0,0, 0.8);
+    border-radius: 5px;
+    padding: 40px;
+    top: 15%;
+    left: 40%;
+    border:1px solid #888;
+    width: 25%;
+}
+
+.containerL{
+    text-align: center;
+    border-radius: 5px;
+    color: black;
+    text-decoration: none;
+    padding: 6px;
+    font-size: 12px;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+.psw_check{
+    display: none;
+    text-align: center;
+    color: red;
+    margin: 0%;
+}

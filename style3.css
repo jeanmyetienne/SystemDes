@@ -1,0 +1,153 @@
+
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background: url("images/white.jpeg");
+  height: 500vh;
+  background-color: whitesmoke;
+    position: static;
+    height:  auto;
+    background-size: cover;
+    background-position: center;
+    font-family: Arial;
+    margin: 0;
+    padding: 0;
+}
+/*NAVBAR*/
+.menu1  {
+    width:  100%;
+    background-color: #800000;
+    color: white;
+    overflow: auto;
+    letter-spacing: 1px;   
+}
+
+
+.menu1 ul {
+    margin: 0;
+    padding:  0;
+    list-style: none;
+    line-height: 70px;
+    color: whitesmoke;
+
+}
+
+.menu1 h1 {
+    color:  whitesmoke;
+    text-align: center;
+    text-decoration: none;
+}
+
+
+.menu1 ul li a:hover {
+    color: whitesmoke;
+    background:  transparent;
+} 
+
+.container{
+  max-width: 800px;
+  height: 600px;
+  background: #fff;
+  margin: 50px auto;
+  box-shadow: 0 0 20px rgba(115,0,0, 0.8);
+  box-sizing: border-box;
+  padding: 40px;
+}
+
+h5 {
+  text-align: center;
+  letter-spacing: 1px;  
+  font-size: 45px;
+/*  margin-bottom: 20px;*/
+  color: #800000;
+}
+
+h3 {
+  text-align: center;
+  letter-spacing: 1px;  
+  font-size: 45px;
+  margin-bottom: 20px;
+  color: #800000;
+}
+
+p{
+  text-align: center;
+  letter-spacing: 1px;  
+  font-size: 15px;
+  margin-bottom: 20px;
+  color: #800000;
+  text text-decoration: none;
+}
+
+h4 {
+  text-align: center;
+}
+
+address {
+  display: block;
+  text-align: center;
+}
+
+.input,
+.msg .area{
+  width: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+  margin-bottom: 25px;
+  border: 2px solid #800000;
+  font-size: 14px;
+  border-radius: 5px;
+  outline: none;
+  transform: all 0.5s ease;
+}
+
+.login .input{
+  width: 48%;
+  float: left;
+  margin-right: 4%;
+}
+
+.login .input:last-child{
+  margin-right: 0;
+}
+
+.msg .area{
+  height: 200px;
+}
+
+.btn{
+  width: 250px;
+  background: #800000;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  border-radius: 5px;
+  margin: 0 auto;
+  color: #fff;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.input:focus,
+.msg .area:focus{
+  border: 2px solid #800000;
+}
+
+::-webkit-input-placeholder {
+  font-family: arial;
+}
+
+.col-9 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+h2 {
+  color: #800000;
+}
+
+
